@@ -1,6 +1,5 @@
 # React_Redux_TodoList
 Created with HOC
-Created with CodeSandBox
 
 # Link SandBox:
 ## https://codesandbox.io/s/great-bhaskara-cgks1
