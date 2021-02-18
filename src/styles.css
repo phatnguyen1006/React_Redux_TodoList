@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* add-todo */
+.add-todo {
+  background: green;
+  margin-top: 10px;
+  padding-top: 10px;
+  paading-bottom: 5px;
+}
+
+.add-todo > form > input {
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.add-todo > form > button {
+  margin-left: 5px;
+  width: 20%;
+}
+
+/* todolist */
+.todo-list {
+  background-color: red;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.todo-list > ul > button {
+  margin-bottom: 3px;
+  margin-top: 3px;
+  width: 100%;
+}
