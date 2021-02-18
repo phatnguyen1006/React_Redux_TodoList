@@ -9,8 +9,7 @@ export const addTodo = (text) => {
   return {
     type: "ADD_TODO",
     id: nextTodoId++,
-    text: text,
-    completed: false
+    text: text
   };
 };
 
@@ -25,6 +24,7 @@ export const setFilter = (filter) => {
 
 // Action: toggle to tick completed todo
 export const toggleTodo = (id) => {
+  // console.log("Was dispatch Toggle");
   return {
     type: "TOGGLE_TODO",
     id

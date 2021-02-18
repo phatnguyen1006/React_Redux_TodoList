@@ -6,8 +6,8 @@ const Footer = () => {
   return (
     <p>
       SHOW: <FilterLink filter={"SHOW_ALL"}>ALL</FilterLink>{" "}
-      <FilterLink filter={"COMPLETED"}>COMPLETED</FilterLink>{" "}
-      <FilterLink filter={"ACTIVE"}>ACTIVE</FilterLink>
+      <FilterLink filter={"SHOW_COMPLETED"}>COMPLETED</FilterLink>{" "}
+      <FilterLink filter={"SHOW_ACTIVE"}>ACTIVE</FilterLink>
     </p>
   );
 };

@@ -2,7 +2,7 @@ import React from "react";
 
 // Set Filter Reducer:
 
-const VisibilityFilter = (state = "SHOW_ALL", action) => {
+const visibilityFilter = (state = "SHOW_ALL", action) => {
   switch (action.type) {
     case "SET_FILTER":
       console.log("Was SetFilter");
@@ -12,4 +12,4 @@ const VisibilityFilter = (state = "SHOW_ALL", action) => {
   }
 };
 
-export default VisibilityFilter;
+export default visibilityFilter;
